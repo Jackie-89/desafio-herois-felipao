@@ -8,5 +8,5 @@ let xp = [
   ["Tocha-Humana", 3500]
 ];
 
-console.log(timeHerois[0]);
-
+//concomitação
+console.log("Escolho " + timeHerois[0] + " e seu XP é de " + xp[0][1]);
