@@ -9,4 +9,19 @@ let xp = [
 ];
 
 //concomitação
-console.log("Escolho " + timeHerois[0] + " e seu XP é de " + xp[0][1]);
+console.log("Escolho" + timeHerois[0] + "com o xp de " + xp[0][1])
+
+//proximas variaves
+if (valorXP <= 1000) return "Ferro";
+  else if (valorXP >= 1001 && valorXP <= 2000) return "Bronze";
+  else if (valorXP >= 2001 && valorXP <= 5000) return "Prata";
+  else if (valorXP >= 5001 && valorXP <= 7000) return "Ouro";
+  else if (valorXP >= 7001 && valorXP <= 8000) return "Diamante";
+  else if (valorXP >= 8001 && valorXP <= 9000) return "Ascendente";
+  else if (valorXP >= 9001 && valorXP <= 10000) return "Imortal";
+  else return "Radiante"; // Acima de 10000
+
+  
+
+
+
